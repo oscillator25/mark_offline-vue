@@ -1,8 +1,8 @@
 ---
 applications:
- - name: web-classify
+ - name: mark-offline-vue-demo
    memory: 512M
    disk_quota: 2048M
    routes:
-   - route: mark-offline-vue.mybluemix.net
+   - route: mark-offline-vue-demo.mybluemix.net
    command: npm run start-prod
